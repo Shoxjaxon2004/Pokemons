@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fellbaum Grotesk';
+    src: local('Fellbaum Grotesk Medium'), local('Fellbaum-Grotesk-Medium'),
+        url('FellbaumGrotesk-Medium.woff2') format('woff2'),
+        url('FellbaumGrotesk-Medium.woff') format('woff'),
+        url('FellbaumGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }

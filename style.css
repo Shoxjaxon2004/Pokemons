@@ -1,0 +1,79 @@
+::-webkit-scrollbar{
+    width: 5px;
+    height: 2px;
+}
+::-webkit-scrollbar-track{
+    
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(255, 0, 0, 0.9);
+    /* box-shadow: 0 0 5px 5px rgb(255, 0, 0);  */
+    border-radius: 10%;
+}
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body{
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+img{
+    -webkit-box-shadow: 0px 5px 10px 2px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 5px 10px 2px rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px 2px rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Fellbaum Grotesk';
+    font-weight: bold;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pokemons{
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgb(255, 255, 255);
+    padding-top: 30px;
+    margin-top: 30px;
+    overflow: auto;
+    height: 500px;
+}
+
+.pokemons__elements, .pokemons__elements2, .pokemons__elements3, .pokemons__elements4, .pokemons__elements5, .pokemons__elements6{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    transition: all .3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 10px 2px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 5px 10px 2px rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px 2px rgb(209, 9, 9);
+}
+
+.text{
+    font-size: 50px;
+}
+
+
